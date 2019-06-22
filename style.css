@@ -33,7 +33,7 @@ body {
 
 .top {
     height: 40vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(back.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(sunset.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -199,7 +199,7 @@ h2 {
     margin-bottom: 15px;
 }
 
-.icome__title { color: #28B9B5; }
+.icome__title { color: #28B9B5; margin-left:10%}
 .expenses__title { color: #FF5049; }
 
 .item {
@@ -276,3 +276,13 @@ h2 {
 .unpaid .item__percentage { box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.1); }
 .unpaid:hover .item__description { font-weight: 900; }
 
+/*-------MEDIA QUERIES-----*/
+
+
+@media only screen and (max-width: 600px){
+    .income {
+        float: left;
+        width: 475px;
+        margin-right: 50px;
+    }
+}
